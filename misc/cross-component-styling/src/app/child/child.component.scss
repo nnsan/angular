@@ -1,0 +1,8 @@
+button {
+    background-color: green;
+}
+
+// CSS Variables
+button {
+    background-color: var(--btn-bg-color, green);
+}

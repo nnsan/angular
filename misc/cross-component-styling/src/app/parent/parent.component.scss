@@ -1,0 +1,17 @@
+button {
+    background-color: pink;
+}
+
+// CSS Variables
+:host {
+    --btn-bg-color: pink;
+    h2 {
+        color: chartreuse;
+    }
+}
+
+
+/* ::ng-deep */
+:host ::ng-deep app-grand-child button {
+  background-color: crimson;
+}

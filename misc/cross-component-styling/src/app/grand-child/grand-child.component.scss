@@ -1,0 +1,15 @@
+button {
+  background-color: var(--btn-bg-color, yellow);
+}
+
+
+// CSS Variables
+button {
+    background-color: var(--btn-bg-color, green);
+}
+
+// :host-context
+:host-context(.dark) button {
+  background-color: #333;
+  color: #eee;
+}
